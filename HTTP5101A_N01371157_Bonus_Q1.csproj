@@ -107,7 +107,6 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Bonus_Q1_Coordinate.aspx" />
-    <Content Include="Bonus_Q1_Coordinate.html" />
     <Content Include="Bonus_Q2_WeeklyCalendar.aspx" />
     <Content Include="Bonus_Q3_RaffleBundle.aspx" />
     <Content Include="Contact.aspx" />

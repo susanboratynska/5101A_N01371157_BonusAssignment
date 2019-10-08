@@ -11,7 +11,7 @@ namespace HTTP5101A_N01371157_Bonus_Q1
             confirmation_schedule.InnerHtml = ""; // TO CLEAR PRINT MESSAGE WITH EACH RESUBMIT
             if (Page.IsPostBack)
                 if (Page.IsPostBack)
-            {
+                {
                 Page.Validate();
                 if (Page.IsValid)
                 {
@@ -48,7 +48,7 @@ namespace HTTP5101A_N01371157_Bonus_Q1
                     for (int i = 0; i < 31; i++)
                     {
                         string Message = Funday;
-                        int count = i + 7;
+                        int count = i; 
                         int modulus = count % 7;
                         if (modulus == 6)
                         {
@@ -86,13 +86,11 @@ namespace HTTP5101A_N01371157_Bonus_Q1
                                 Message = Workday;
                             }
                         }
-
                         confirmation_schedule.InnerHtml += "Oct " + (i + 1) + " is a " + day + ". " + Message + "<br/>";
-
                     }
 
                 }
-            }
+                }
 
 
 
